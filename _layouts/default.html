@@ -11,14 +11,14 @@
 
 <body>
   <header>
-    <h1>{{ site.title }}</h1> 
-    <p>{{ site.discription }}</p>
-    <a href="https://github.com/{{ site.github.username }}/{{ site.github.repository }} " target="_blank" class="btn btn-primary btn-sm">
-    View on GitHub
-    </a>
+    <h1>{{ site.title }}</h1>
   </header>
 
   <main>
+    <a href="https://github.com/{{ site.github.username }}/{{ site.github.repository }} " target="_blank" class="btn btn-primary btn-sm">
+    View on GitHub
+    </a>
+
     {{ content }} <!-- This is where page content will go -->
   </main>
 
