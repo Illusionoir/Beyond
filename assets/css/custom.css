@@ -79,7 +79,7 @@ button:hover, input[type="submit"]:hover, .btn:hover {
     }
 
     header {
-        padding: 20px; /* Adjust padding for mobile */
+        padding: 15px; /* Adjust padding for mobile */
     }
 
     main {
