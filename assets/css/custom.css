@@ -12,7 +12,7 @@ body {
 /* Header Styling */
 header {
     background-image: url('https://i.ibb.co/643MBTf/shipsailingoffsunset-scene1.jpg'); /* Replace with your image path */
-    background-size: 100% 100%;  /* Ensures the image covers the header area */
+    background-size: cover;  /* Ensures the image covers the header area */
     background-position: top center;  /* Centers the image */
     background-repeat: no-repeat;  /* Prevents the image from repeating */
     color: #ffffff;  /* Text color, change if necessary for contrast */
@@ -81,7 +81,7 @@ button:hover, input[type="submit"]:hover, .btn:hover {
 
     header {
         padding: 15px; /* Adjust padding for mobile */
-        background-size: 100% 100%;
+       
     }
 
     main {
