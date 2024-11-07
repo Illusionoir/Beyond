@@ -60,7 +60,7 @@ footer {
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
     body {
-        font-size: 14px; /* Smaller text size for smaller screens */
+        font-size: 22px; /* Smaller text size for smaller screens */
     }
 
     header {
