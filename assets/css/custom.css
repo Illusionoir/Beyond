@@ -57,22 +57,6 @@ footer {
     text-align: center;
 }
 
-/* Buttons and interactive elements */
-button, input[type="submit"], .btn {
-    background-color: transparent; /* Makes the background transparent */
-    border: 2px solid #ffffff; /* Adds a white border around the button */
-    color: #ffffff; /* Sets the text color to white */
-    padding: 10px 20px;
-    font-size: 1rem; /* Adjust font size */
-    text-align: center;
-    border-radius: 5px; /* Optional: Adds rounded corners */
-    transition: background-color 0.3s ease; /* Smooth transition on hover */
-}
-
-button:hover, input[type="submit"]:hover, .btn:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Slight white background on hover */
-}
-
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
     body {
@@ -81,7 +65,7 @@ button:hover, input[type="submit"]:hover, .btn:hover {
 
     header {
         padding: 15px; /* Adjust padding for mobile */
-        height: 150px;
+        height: 200px;
        
     }
 
