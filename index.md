@@ -1,3 +1,3 @@
-# [Beyond]
+# Beyond
 
 *coming soon...*
