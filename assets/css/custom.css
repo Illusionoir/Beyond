@@ -21,6 +21,18 @@ header {
     border-radius: 5px;
 }
 
+header h1 {
+    font-size: 3rem; /* Increase the font size (adjust as needed) */
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem; /* Adjust this for any paragraph text */
+    margin: 0;
+}
+
 /* Main content section */
 main {
     padding: 20px;
