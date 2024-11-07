@@ -12,11 +12,11 @@ body {
 /* Header Styling */
 header {
     background-image: url('https://i.ibb.co/643MBTf/shipsailingoffsunset-scene1.jpg'); /* Replace with your image path */
-    background-size: cover;  /* Ensures the image covers the header area */
+    background-size: 100% 150%;  /* Ensures the image covers the header area */
     background-position: center;  /* Centers the image */
     background-repeat: no-repeat;  /* Prevents the image from repeating */
     color: #ffffff;  /* Text color, change if necessary for contrast */
-    padding: 40px;
+    padding: 20px;
     text-align: center;
     border-radius: 5px;
 }
@@ -29,7 +29,7 @@ header h1 {
 }
 
 header p {
-    font-size: 1.2rem; /* Adjust this for any paragraph text */
+    font-size: 1rem; /* Adjust this for any paragraph text */
     margin: 0;
 }
 
