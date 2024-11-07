@@ -11,10 +11,14 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #333; /* Darker background for header */
-    color: #f1f1f1; /* Light color for text */
-    padding: 20px;
+    background-image: url('https://ibb.co/55N0FSf'); /* Replace with your image path */
+    background-size: cover;  /* Ensures the image covers the header area */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+    color: #ffffff;  /* Text color, change if necessary for contrast */
+    padding: 40px;
     text-align: center;
+    border-radius: 5px;
 }
 
 /* Main content section */
@@ -42,15 +46,18 @@ footer {
 
 /* Buttons and interactive elements */
 button, input[type="submit"], .btn {
-    background-color: #1e90ff; /* Bright button background */
-    color: white; /* Button text color */
-    border: none;
+    background-color: transparent; /* Makes the background transparent */
+    border: 2px solid #ffffff; /* Adds a white border around the button */
+    color: #ffffff; /* Sets the text color to white */
     padding: 10px 20px;
-    cursor: pointer;
+    font-size: 1rem; /* Adjust font size */
+    text-align: center;
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
 }
 
 button:hover, input[type="submit"]:hover, .btn:hover {
-    background-color: #ff6347; /* Button hover effect */
+    background-color: rgba(255, 255, 255, 0.2); /* Slight white background on hover */
 }
 
 /* Mobile Responsiveness */
