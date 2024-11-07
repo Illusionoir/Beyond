@@ -16,13 +16,13 @@ header {
     background-position: top center;  /* Centers the image */
     background-repeat: no-repeat;  /* Prevents the image from repeating */
     color: #ffffff;  /* Text color, change if necessary for contrast */
-    padding: 15px;
+    padding: 40px;
     text-align: center;
     border-radius: 5px;
 }
 
 header h1 {
-    font-size: 3rem; /* Increase the font size (adjust as needed) */
+    font-size: 5rem; /* Increase the font size (adjust as needed) */
     font-family: "Cabin Sketch", sans-serif;
     font-weight: 700;
     margin: 0;
@@ -79,7 +79,7 @@ button:hover, input[type="submit"]:hover, .btn:hover {
     }
 
     header {
-        padding: 15px; /* Adjust padding for mobile */
+        padding: 20px; /* Adjust padding for mobile */
     }
 
     main {
