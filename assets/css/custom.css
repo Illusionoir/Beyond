@@ -59,6 +59,10 @@ footer {
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
+    img {
+        width: 80%;       /* Image will be 80% of its container on mobile */
+        height: auto;     /* Keeps the aspect ratio intact */
+    }
     body {
         font-size: 22px; /* Smaller text size for smaller screens */
     }
