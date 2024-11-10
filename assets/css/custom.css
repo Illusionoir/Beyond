@@ -60,7 +60,7 @@ footer {
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
     img {
-        width: 80%;       /* Image will be 80% of its container on mobile */
+        width: 100%;       /* Image will be 80% of its container on mobile */
         height: auto;     /* Keeps the aspect ratio intact */
     }
     body {
