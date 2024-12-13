@@ -11,10 +11,17 @@ In response, Unit 2 which consist of mages swiftly took their positions. Clad in
 
 With wands raised high, the mages chanted in unison:
 
-"O ancient spirits of protection, guardians of the unseen veil,
-We call upon the Aegis of Ages, unyielding and unbroken,
-By the bonds of mana, forge an impregnable wall—
-Aegis Sanctum!"
+"भूमेरम्बुदेर्वायोश्च बन्धनशक्तिभिः,
+आवहामः वर्तूलं कवचं सर्वत्र स्थितम्।
+अनन्तमेजः, न आरम्भो न च समाप्तिः,
+रक्षतु सर्वतो विपत्तेः, यत्र कुत्रापि स्यात्।
+
+वर्धतां कवचं महाबलसमन्वितम्,
+आवृत्य सर्वदिक्शः, दिने रात्रौ च।
+पूर्णे माने, वर्तूलस्य च बले,
+मा आगच्छतु हानिः, मा निकटं रिपुः।
+
+सिद्धकवच!"
 
 A radiant mana barrier surged into existence, a shimmering dome that crackled with raw energy. The blue beam collided with it, a thunderous impact that sent shockwaves rippling through the air. But the barrier held firm, its strength undiminished by the serpent’s onslaught.
 
