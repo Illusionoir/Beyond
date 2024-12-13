@@ -21,7 +21,7 @@ With wands raised high, the mages chanted in unison:
 पूर्णे माने, वर्तूलस्य च बले,
 मा आगच्छतु हानिः, मा निकटं रिपुः।
 
-सिद्धकवच!"
+―― सिद्धकवच!"
 
 A radiant mana barrier surged into existence, a shimmering dome that crackled with raw energy. The blue beam collided with it, a thunderous impact that sent shockwaves rippling through the air. But the barrier held firm, its strength undiminished by the serpent’s onslaught.
 
