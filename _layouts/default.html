@@ -19,8 +19,19 @@
   </header>
 
   <main>
-    {{ content }} <!-- This is where page content will go -->
-  </main>
+  {{ content }} <!-- This is where page content will go -->
+  
+  <!-- Disqus comment section -->
+  <div id="disqus_thread"></div>
+  <script>
+    (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://beyond-2.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+  </script>
+</main>
 
   <footer>
     <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
