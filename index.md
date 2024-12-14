@@ -8,4 +8,4 @@
 
 - [Chapter 3: The Breaking Point](chapters/chapter3.md) [en] 
 
-- [Chapter 4: The Breaking Point](chapters/chapter4.md) [en] [WIP]
+- [Chapter 4: Awakening](chapters/chapter4.md) [en] [WIP]
