@@ -56,6 +56,15 @@ footer {
     padding: 10px;
     text-align: center;
 }
+.divider {
+  border: none;
+  border-top: 2px solid #ccc; /* Adjust the thickness and color */
+  margin: 20px 0; /* Add space above and below the line */
+  width: 80%; /* Set the width of the line */
+  margin-left: auto;
+  margin-right: auto; /* Center the line */
+}
+
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
