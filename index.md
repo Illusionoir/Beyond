@@ -1,4 +1,11 @@
 # Beyond
+Story by- Illusion
+Art by- ChatGPT
+Edited by- ChatGPT
+
+
+Click on the chapters to read them!
+
 
 - [License ](License.md)
 
@@ -9,3 +16,4 @@
 - [Chapter 3: The Breaking Point](chapters/chapter3.md) [en] 
 
 - [Chapter 4: Awakening](chapters/chapter4.md) [en] [WIP]
+  
