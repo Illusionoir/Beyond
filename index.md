@@ -1,7 +1,7 @@
 # Beyond
-Story by- Illusion
-Art by- ChatGPT
-Edited by- ChatGPT
+Story by- Illusion;
+Art by- ChatGPT;
+Edited by- ChatGPT;
 
 
 Click on the chapters to read them!
