@@ -1,4 +1,4 @@
-# Chapter 4: Awakening
+# Chapter 4: Awakening-I
 
 
 As the ship fell apart under the serpent’s relentless assault, so did the hopes of everyone aboard. Both Edward and Steven were critically wounded, and their men—along with the ship’s escort crew—were falling one by one to the creature’s fury. The situation was beyond grave. There was nothing left but despair. The noblemen and merchants were paralyzed by sheer dread, their minds consumed by the terrifying reality of their fate.
