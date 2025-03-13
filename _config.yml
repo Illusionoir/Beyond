@@ -1,0 +1,9 @@
+title: Beyond
+description: "A fantasy novel project"
+baseurl: "" # Ensure it's empty for proper relative linking
+url: ""
+
+collections:
+  chapters:
+    output: true
+    permalink: /chapters/:name/
