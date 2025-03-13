@@ -5,6 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beyond - Home</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header, footer {
+            background-color: #1e1e1e;
+            padding: 1rem;
+        }
+        .chapters {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .chapter-card {
+            background: #1e1e1e;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.1);
+        }
+        a {
+            color: #00bcd4;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -36,8 +69,22 @@
         })();
     </script>
     
-    <script src="script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const chapters = [
+                { title: "Chapter 1", file: "chapter-1.html" },
+                { title: "Chapter 2", file: "chapter-2.html" },
+                { title: "Chapter 3", file: "chapter-3.html" }
+            ];
+            
+            const chaptersContainer = document.querySelector(".chapters");
+            chapters.forEach(chapter => {
+                let chapterElement = document.createElement("div");
+                chapterElement.classList.add("chapter-card");
+                chapterElement.innerHTML = `<a href="${chapter.file}">${chapter.title}</a>`;
+                chaptersContainer.appendChild(chapterElement);
+            });
+        });
+    </script>
 </body>
 </html>
-
-
