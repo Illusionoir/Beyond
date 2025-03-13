@@ -1,9 +1,18 @@
 title: Beyond
 description: "A fantasy novel project"
-baseurl: "" # Ensure it's empty for proper relative linking
+baseurl: ""  # Keep this empty for proper relative linking
 url: ""
 
+# Exclude unnecessary files
+exclude:
+  - README.md
+  - LICENSE
+
+# Enable the chapters collection
 collections:
   chapters:
     output: true
     permalink: /chapters/:name/
+
+# Set the theme (if using a Jekyll theme, but we are doing custom styling)
+theme: null
