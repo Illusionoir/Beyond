@@ -1,4 +1,4 @@
-title: Beyond
+title: "Beyond"
 description: "A fantasy novel project"
 baseurl: ""  # Keep this empty for proper relative linking
 url: ""
@@ -12,7 +12,7 @@ exclude:
 collections:
   chapters:
     output: true
-    permalink: /chapters/:name/
+    permalink: "/chapters/:name/"
 
-# Set the theme (if using a Jekyll theme, but we are doing custom styling)
+# No theme (we're using custom styling)
 theme: null
