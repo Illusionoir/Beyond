@@ -12,7 +12,7 @@ This site hosts all chapters of **Beyond**, with an easy-to-read dark theme and 
 - **Fully responsive design** for all screen sizes.  
 
 ## 🔗 Read the Novel  
-📚 [Visit the website](https://.github.io//)  
+📚 [Visit the website](https://illusionoir.github.io/Beyond/)  
 
 ---
 
