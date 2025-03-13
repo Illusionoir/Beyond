@@ -51,30 +51,10 @@ header {
     background: #ff6347;
 }
 
-/* Chapter Navigation */
-.chapter-nav {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 20px;
-}
-
-.nav-button {
-    padding: 10px 15px;
-    background: #1e90ff;
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.nav-button:hover {
-    background: #ff6347;
-}
-
 /* Responsive Design */
 @media (max-width: 1024px) {
     .chapter-card {
-        width: 80%; /* Adjust width for medium screens */
+        width: 80%;
     }
 }
 
@@ -85,7 +65,7 @@ header {
     }
 
     .chapter-card {
-        width: 90%; /* Full width on smaller screens */
+        width: 90%;
     }
 
     header {
@@ -96,11 +76,12 @@ header {
 
 @media (max-width: 480px) {
     body {
-        font-size: 14px; /* Reduce text size for small screens */
+        font-size: 14px;
     }
 
     .nav-button, .read-more {
-        padding: 8px 12px; /* Smaller buttons for mobile */
+        padding: 8px 12px;
     }
 }
+
 
