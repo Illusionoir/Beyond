@@ -1,4 +1,30 @@
+---
+layout: default
+title: Beyond
+---
+
 # Beyond
 
-Welcome to my novel!
+## Chapters
+<div class="chapter-list">
+  <div class="chapter-card">
+    <h2>Chapter 1: The Beginning</h2>
+    <a href="/chapters/chapter1.md" class="read-more">Read Chapter</a>
+  </div>
+  <div class="chapter-card">
+    <h2>Chapter 2: Rising Storm</h2>
+    <a href="/chapters/chapter2.md" class="read-more">Read Chapter</a>
+  </div>
+</div>
 
+<hr class="divider">
+
+<div id="disqus_thread"></div>
+<script>
+  (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://beyond-2.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
