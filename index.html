@@ -1,4 +1,3 @@
-<!-- File: index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,63 +13,17 @@
   </header>
 
   <nav id="sidebar">
-    <ul>
-      <li><a href="#novel1">Crimson Shadows</a></li>
-      <li><a href="#novel2">Echoes of the Abyss</a></li>
-      <li><a href="#novel3">Twilight Chronicles</a></li>
-    </ul>
+    <ul id="novel-links"></ul>
   </nav>
 
-  <main>
-    <section id="novel1" class="novel">
-      <h2>Crimson Shadows</h2>
-      <ul class="chapters">
-        <li><button>Chapter 1: The Awakening</button></li>
-        <li><button>Chapter 2: Blood Pact</button></li>
-        <li><button>Chapter 3: Midnight Hunt</button></li>
-      </ul>
-      <div class="content">
-        <p>Welcome to <strong>Crimson Shadows</strong>. Tap a chapter to begin your journey into the dark...</p>
-        <button class="like-btn">♥ Like</button>
-      </div>
-    </section>
-
-    <section id="novel2" class="novel">
-      <h2>Echoes of the Abyss</h2>
-      <ul class="chapters">
-        <li><button>Chapter 1: Descent</button></li>
-        <li><button>Chapter 2: Whispers Below</button></li>
-        <li><button>Chapter 3: Silent Depths</button></li>
-      </ul>
-      <div class="content">
-        <p><strong>Echoes of the Abyss</strong> beckons you deeper into forgotten worlds.</p>
-        <button class="like-btn">♥ Like</button>
-      </div>
-    </section>
-
-    <section id="novel3" class="novel">
-      <h2>Twilight Chronicles</h2>
-      <ul class="chapters">
-        <li><button>Chapter 1: Duskfall</button></li>
-        <li><button>Chapter 2: Shadows Align</button></li>
-        <li><button>Chapter 3: Dawn Rising</button></li>
-      </ul>
-      <div class="content">
-        <p><strong>Twilight Chronicles</strong> unveils the secrets of an eternal night.</p>
-        <button class="like-btn">♥ Like</button>
-      </div>
-    </section>
+  <main id="novels-container">
+    <p class="loading-text">Loading novels...</p>
   </main>
 
   <footer>
     <p>© 2025 Dark Novel Reader. All Rights Reserved.</p>
   </footer>
 
-  <script>
-    // Simple toggle for mobile menu
-    document.getElementById("menu-toggle").onclick = () => {
-      document.getElementById("sidebar").classList.toggle("open");
-    };
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
