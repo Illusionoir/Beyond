@@ -1,24 +1,48 @@
-const wrapper = document.querySelector(".wrapper");
-const question = document.querySelector(".question");
-const gif = document.querySelector(".gif");
-const yesBtn = document.querySelector(".yes-btn");
-const noBtn = document.querySelector(".no-btn");
+// File: script.js
 
-yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Yay, Thank you!💞️🙈️";
-  gif.src =
-    "https://media.giphy.com/media/jRkaiw4ZUSHeuv1wBU/giphy.gif";
-});
+const sidebar = document.getElementById("sidebar");
+const menuToggle = document.getElementById("menu-toggle");
+const novelsContainer = document.getElementById("novels-container");
+const novelLinks = document.getElementById("novel-links");
 
-noBtn.addEventListener("mouseover", () => {
-  const noBtnRect = noBtn.getBoundingClientRect();
-  const maxX = window.innerWidth - noBtnRect.width;
-  const maxY = window.innerHeight - noBtnRect.height;
+menuToggle.onclick = () => sidebar.classList.toggle("open");
 
-  const randomX = Math.floor(Math.random() * maxX);
-  const randomY = Math.floor(Math.random() * maxY);
+// Load novels dynamically
+async function loadNovels() {
+  try {
+    const res = await fetch("novels.json");
+    const data = await res.json();
+    novelsContainer.innerHTML = ""; // Clear loading text
 
-  noBtn.style.left = randomX + "px";
-  noBtn.style.top = randomY + "px";
-});
+    data.novels.forEach((novel) => {
+      // Sidebar link
+      const link = document.createElement("li");
+      link.innerHTML = `<a href="#${novel.id}">${novel.title}</a>`;
+      novelLinks.appendChild(link);
 
+      // Novel section
+      const section = document.createElement("section");
+      section.className = "novel";
+      section.id = novel.id;
+
+      const chaptersHTML = novel.chapters
+        .map((ch) => `<li><button>${ch}</button></li>`)
+        .join("");
+
+      section.innerHTML = `
+        <h2>${novel.title}</h2>
+        <ul class="chapters">${chaptersHTML}</ul>
+        <div class="content">
+          <p>${novel.description}</p>
+          <button class="like-btn">♥ Like</button>
+        </div>
+      `;
+      novelsContainer.appendChild(section);
+    });
+  } catch (err) {
+    novelsContainer.innerHTML = `<p style="color:red;">Failed to load novels.</p>`;
+    console.error("Error loading novels:", err);
+  }
+}
+
+loadNovels();
