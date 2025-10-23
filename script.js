@@ -10,7 +10,7 @@ menuToggle.onclick = () => sidebar.classList.toggle("open");
 // Load novels dynamically
 async function loadNovels() {
   try {
-    const res = await fetch("novels.json");
+    const res = await fetch("./novels.json");
     const data = await res.json();
     novelsContainer.innerHTML = ""; // Clear loading text
 
@@ -46,3 +46,4 @@ async function loadNovels() {
 }
 
 loadNovels();
+
