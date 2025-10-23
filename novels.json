@@ -1,0 +1,34 @@
+{
+  "novels": [
+    {
+      "id": "novel1",
+      "title": "Crimson Shadows",
+      "description": "Tap a chapter to begin your journey into the dark...",
+      "chapters": [
+        "Chapter 1: The Awakening",
+        "Chapter 2: Blood Pact",
+        "Chapter 3: Midnight Hunt"
+      ]
+    },
+    {
+      "id": "novel2",
+      "title": "Echoes of the Abyss",
+      "description": "Beckons you deeper into forgotten worlds.",
+      "chapters": [
+        "Chapter 1: Descent",
+        "Chapter 2: Whispers Below",
+        "Chapter 3: Silent Depths"
+      ]
+    },
+    {
+      "id": "novel3",
+      "title": "Twilight Chronicles",
+      "description": "Unveils the secrets of an eternal night.",
+      "chapters": [
+        "Chapter 1: Duskfall",
+        "Chapter 2: Shadows Align",
+        "Chapter 3: Dawn Rising"
+      ]
+    }
+  ]
+}
