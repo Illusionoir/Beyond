@@ -1,33 +1,163 @@
+/* File: styles.css */
+
 body {
-    background-color: #121212;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-    margin: 0;
+  margin: 0;
+  background-color: #000;
+  color: #eee;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  padding: 1rem;
+  border-bottom: 2px solid #8b0000;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  color: #8b0000;
+}
+
+.menu-btn {
+  background: #8b0000;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #330000;
+}
+
+nav {
+  position: fixed;
+  left: -240px;
+  top: 0;
+  height: 100%;
+  width: 240px;
+  background: #111;
+  transition: left 0.3s ease;
+  padding-top: 70px;
+  z-index: 10;
+}
+
+nav.open {
+  left: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  display: block;
+  padding: 1rem;
+  color: #eee;
+  text-decoration: none;
+  border-bottom: 1px solid #222;
+  transition: background 0.2s;
+}
+
+nav a:hover {
+  background: #8b0000;
+}
+
+main {
+  margin: 2rem;
+  padding-left: 0;
+}
+
+.novel {
+  margin-bottom: 3rem;
+}
+
+.novel h2 {
+  color: #8b0000;
+  margin-bottom: 1rem;
+}
+
+.chapters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.chapters button {
+  background: #111;
+  color: #fff;
+  border: 1px solid #8b0000;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.chapters button:hover {
+  background: #8b0000;
+  box-shadow: 0 0 10px #660000;
+}
+
+.like-btn {
+  background: #111;
+  border: 2px solid #8b0000;
+  color: #8b0000;
+  padding: 0.5rem 1.5rem;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: inset 0 0 10px #300000;
+}
+
+.like-btn:hover {
+  background: #8b0000;
+  color: #fff;
+  box-shadow: 0 0 15px #8b0000;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #222;
+  color: #555;
+}
+
+@media (min-width: 768px) {
+  nav {
+    position: static;
+    height: auto;
+    width: auto;
+    display: block;
+    background: none;
     padding: 0;
-}
+  }
 
-header, footer {
-    text-align: center;
-    padding: 1em;
-}
-
-.card-container {
+  nav ul {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+    gap: 1rem;
+  }
 
-.card {
-    background-color: #1e1e1e;
-    border: 1px solid #333;
-    border-radius: 5px;
-    margin: 10px;
-    padding: 20px;
-    width: 200px;
-    text-align: center;
-}
+  nav a {
+    border: none;
+    padding: 0.5rem 1rem;
+  }
 
-.card a {
-    color: #1e90ff;
-    text-decoration: none;
+  .menu-btn {
+    display: none;
+  }
+
+  main {
+    margin: 2rem auto;
+    max-width: 800px;
+  }
 }
